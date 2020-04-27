@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pwate Prep</string>
+    <string name="hint_search_string">Enter Swearch Text</string>
+    <string name="button_search">Find wecipe</string>
+    <string name="button_add">Add Ingredient</string>
+    <string name="button_remove">Remove Last Ingredient</string>
+</resources>
