@@ -57,3 +57,12 @@ object Model {
     )
 }
 
+object IngModel {
+    data class Result(val ingredients :Array<Meals>)
+    data class Meals (
+        val idIngredient: String?,
+        val strIngredient: String?,
+        val strDescription: String?,
+        val strType: String?
+    )
+}

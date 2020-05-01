@@ -7,14 +7,15 @@
     android:padding="20dp"
     tools:context="MainActivity">
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/edit_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_search_string"
         android:textAlignment="center"
         android:gravity="center_horizontal"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        />
 
     <Button
         android:id="@+id/btn_add"

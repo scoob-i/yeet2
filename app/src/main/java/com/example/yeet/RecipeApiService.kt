@@ -8,11 +8,12 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Query
 
 interface RecipeApiService {
+    //filter.php?i="chcken, dog"etc...
     @GET("filter.php")
     fun recipeFilter(@Query("i") searchString: String): Observable<Model.Result>
 
-    @GET("Search.php")
-    fun recipeSearch(@Query("s")searchString: String): Observable<Model.Result>
+    @GET("list.php")
+    fun ingredientGet(@Query("i")searchString: String): Observable<IngModel.Result>
 
     companion object {
         fun create(): RecipeApiService {
